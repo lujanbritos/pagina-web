@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  width: 200px;
+  background-color: #ecbad2;
+  padding: 20px;
+  float: left;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* Estilos para los enlaces de la barra lateral */
+.sidebar a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fffafa;
+  padding: 5px;
+}
+
+/* Estilos para el enlace activo */
+.sidebar a.active {
+  font-weight: bold;
+  background-color: #df69a4;
+}
+
+body {
+  background-image: url("fondootravez.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+} 
